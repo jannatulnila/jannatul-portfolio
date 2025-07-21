@@ -13,7 +13,6 @@ import "slick-carousel/slick/slick-theme.css";
 
 const Projects = () => {
     const settings = {
-        dots: true,
         infinite: true,
         speed: 500,
         autoplay: true, 

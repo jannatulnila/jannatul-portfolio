@@ -8,7 +8,7 @@ export const projects = [
       "https://i.ibb.co/35Q3hC0B/Screenshot-2025-06-29-104134.png",
       "https://i.ibb.co/KBTdPJc/Screenshot-2025-06-29-104050.png"
     ],
-    techStack: ["React", "Tailwind CSS", "Firebase", "Express", "MongoDB", "Node.js", "JWT"],
+    techStack: ["React", "Tailwind CSS", "Firebase", "Express", "MongoDB", "Node.js"],
     liveLink: "https://warm-dieffenbachia-f5c379.netlify.app/",
     clientRepo: "https://github.com/jannatulnila/food-groceryo-client",
     serverRepo: "https://github.com/jannatulnila/food-groceryo-server",
@@ -68,7 +68,7 @@ export const projects = [
     techStack: ["React", "Tailwind", "Stripe", "Firebase", "Express", "MongoDB"],
     liveLink: "https://primefit-sports-club-99b528.netlify.app/",
     clientRepo: "https://github.com/jannatulnila/sports-club-client",
-    serverRepo: "https://github.com/yourname/parcel-server",
+    serverRepo: "https://github.com/jannatulnila/sports-club-server",
     errors: [
       "Stripe payment redirect not returning user to success page.",
       "Protected routes not working after Firebase logout.",

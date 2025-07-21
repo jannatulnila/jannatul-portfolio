@@ -30,8 +30,8 @@ const Hero = () => {
                     <Link  href="https://www.linkedin.com/in/jannatul-fardous-nila" className=' text-2xl text-gray-600 hover:text-primary dark:text-gray-300'>  <FaLinkedin /></Link>
                 </div>
                 <div className=' flex flex-col md:flex-row justify-center gap-4'>
-                    <Link href="/" className=' bg-primary inline-block w-full md:w-auto text-white px-4 py-3 rounded-lg hover:bg-primary/60 transition-colors'>View Project</Link>
-                    <Link href="/" className=' bg-gray-500 inline-block w-full md:w-auto text-white px-4 py-3 rounded-lg hover:bg-gray-300 transition-colors'>Contact Me</Link>
+                    <Link href="https://drive.google.com/file/d/1g-oAYkBtApbCFT8Wf8W8iMhx2ffqwJFc/view?usp=sharing" target='_blank' className=' bg-primary inline-block w-full md:w-auto text-white px-4 py-3 rounded-lg hover:bg-primary/60 transition-colors'>View CV</Link>
+                    <Link href="/contact" className=' bg-gray-500 inline-block w-full md:w-auto text-white px-4 py-3 rounded-lg hover:bg-gray-300 transition-colors'>Contact Me</Link>
                 </div>
             </div>
         </section>
