@@ -30,7 +30,7 @@ const Navbar = () => {
             <div className="container max-w-7xl mx-auto px-5">
                 {/* desktop menu */}
                 <div className="flex items-center justify-between h-16">
-                    <Link href="/" className="text-xl font-bold text-primary">Jannatul</Link>
+                    <Link href="/" className="text-xl font-bold italic underline text-primary">Jannatul</Link>
 
                     <div className="hidden md:flex items-center space-x-8">
                         {navLinks.map(link => (
@@ -57,7 +57,7 @@ const Navbar = () => {
                             href="https://drive.google.com/file/d/12G321p-9iwyEUW8yBmNoR6hlpcDpqg0W/view?usp=sharing"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="inline-block  dark:text-white p-2 rounded-lg hover:text-primary transition border dark:border-white"
+                            className="inline-block   p-2 rounded-lg hover:text-primary transition  bg-primary text-white"
                         >
                             Resume
                         </a>
@@ -100,7 +100,7 @@ const Navbar = () => {
                                         href="https://drive.google.com/file/d/12G321p-9iwyEUW8yBmNoR6hlpcDpqg0W/view?usp=sharing"
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="inline-block  dark:text-white border dark:border-white py-1 rounded-lg hover:text-primary transition"
+                                        className="inline-block  bg-primary text-white py-1 rounded-lg hover:text-primary transition"
                                     >
                                         Resume
                                     </a>

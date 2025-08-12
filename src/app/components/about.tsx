@@ -2,8 +2,6 @@ import React from 'react';
 import { FaMousePointer } from 'react-icons/fa';
 import { FaServer } from 'react-icons/fa6';
 import { SiNextui } from 'react-icons/si';
-import { motion} from "framer-motion"
-import { fadeIn, fadeInDown, fadeInUp, slideInRight } from '@/utils/animations';
 
 const About = () => {
     return (
@@ -12,7 +10,7 @@ const About = () => {
 
             <div className='mb-12'>
                 <p className='text-xl text-secondary max-w-5xl mx-auto text-center'>
-                    I am a creative and motivated MERN Stack Web Developer with a passion for building modern, responsive, and meaningful web experiences.
+                    I am a creative and motivated Full Stack Web Developer with a passion for building modern, responsive, and meaningful web experiences.
                 </p>
             </div>
 

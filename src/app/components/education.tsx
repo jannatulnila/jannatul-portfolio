@@ -3,7 +3,7 @@ import React from 'react';
 
 const Education = () => {
     return (
-        <section className='py-12 container maz-w-5xl mx-auto px-4'>
+        <section className='py-12 container max-w-5xl mx-auto px-4'>
            <h2 className='text-3xl font-bold mb-12 text-center'>Education</h2>
 
            <div className='flex flex-col gap-6 mb-5'>
