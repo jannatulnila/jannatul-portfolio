@@ -5,7 +5,7 @@ import { GraduationCap, BookOpen, Calendar, MapPin, Award, CheckCircle } from 'l
 
 const Education = () => {
     return (
-        <section className="py-6 md:py-8 lg:py-12">
+        <section className="py-6 md:py-8">
             <div className='container max-w-7xl px-4 md:px-20 mx-auto'>
                 {/* Section Header */}
                 <div className="text-center mb-16">
@@ -52,8 +52,8 @@ const Education = () => {
                                     {/* Info Grid */}
                                     <div className="grid md:grid-cols-2 gap-4 mb-6">
                                         <div className="flex items-center gap-3">
-                                            <div className="flex items-center justify-center w-8 h-8 bg-teal-100 dark:bg-teal-900/50 rounded-lg">
-                                                <BookOpen className="w-4 h-4 text-teal-600 dark:text-teal-400" />
+                                            <div className="flex items-center justify-center w-10 h-10 bg-teal-100 dark:bg-teal-900/50 rounded-lg">
+                                                <BookOpen className="w-6 h-6 text-teal-600 dark:text-teal-400" />
                                             </div>
                                             <div>
                                                 <p className="text-sm text-gray-500 dark:text-gray-400">Major</p>

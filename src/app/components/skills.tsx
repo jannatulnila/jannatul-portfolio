@@ -101,7 +101,7 @@ const Skills = () => {
   };
 
   return (
-    <section className="py-6 md:py-8 lg:py-12">
+    <section className="py-6 md:py-8">
       <div className="container max-w-7xl px-4 md:px-20 mx-auto">
         <div className="max-w-6xl mx-auto">
           {/* Header */}

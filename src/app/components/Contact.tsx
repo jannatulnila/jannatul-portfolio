@@ -55,10 +55,10 @@ const Contact = () => {
   };
 
   return (
-    <section className="py-6 md:py-8 lg:py-12">
-      <div className="container max-w-7xl px-4 md:px-20 mx-auto">
+    <section>
+      <div className="container max-w-7xl px-4 md:px-10 mx-auto">
         {/* Section Header */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-10">
           <div className="inline-flex items-center gap-2 bg-teal-100 dark:bg-teal-900/50 text-teal-700 dark:text-teal-300 px-4 py-2 rounded-full text-sm font-medium mb-6">
             <div className="w-2 h-2 bg-teal-500 rounded-full animate-pulse"></div>
             Get In Touch

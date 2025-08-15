@@ -14,7 +14,6 @@ export default function Home() {
     <Skills></Skills>
     <Education></Education>
     <Contact></Contact>
-    
   </>
   );
 }
