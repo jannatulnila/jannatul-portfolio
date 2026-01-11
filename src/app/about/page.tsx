@@ -5,7 +5,7 @@ import About from '../components/about';
 const AboutPage = () => {
     return (
         
-        <About></About>
+        <About />
     );
 };
 

@@ -4,9 +4,9 @@ export const projects = [
     "title": "FoodGroceryo - Food Expiry Tracker System",
     "description": "The Food Expiry Tracker System is a full-stack web application that enables users to track food items, monitor expiry dates, and receive alerts for nearly expired or expired products. By providing a clear overview of food inventory, it helps users reduce food waste, save money, and improve kitchen management. The platform offers secure authentication, intuitive navigation, real-time expiry countdowns, and recruiter-friendly UI/UX.",
     "images": [
-      "https://i.ibb.co/hRF5WDMG/Screenshot-2025-06-29-104024.png",
-      "https://i.ibb.co/35Q3hC0B/Screenshot-2025-06-29-104134.png",
-      "https://i.ibb.co/KBTdPJc/Screenshot-2025-06-29-104050.png"
+      "https://i.ibb.co.com/TxDyw9vs/food-grocery-1.png",
+      "https://i.ibb.co.com/93cKZ8ZN/food-grocery-2.png",
+      "https://i.ibb.co.com/qYmLYfL4/food-grocery-3.png"
     ],
     "techStack": [
       "React",
@@ -37,10 +37,77 @@ export const projects = [
       "Date comparison issue when filtering expired foods.",
       "Firebase auth state delay during route protection."
     ]
-  }
-  ,
+  },
+{
+  "id": "2",
+  "title": "Digital Wallet – A Secure and Smart Payment Solution",
+  "description": "Digital Wallet is a smart and secure fintech web application that allows users to transfer money, pay bills, manage cards, and track expenses safely. It aims to digitize financial activities with a modern, seamless, and AI-assisted user experience, providing all-in-one digital banking for Bangladesh.",
+  "images": [
+    "https://i.ibb.co.com/0pDJ5RYL/Screenshot-2026-01-11-120536.png",
+    "https://i.ibb.co.com/NdW1Gxfn/Screenshot-2026-01-11-120715.png",
+    "https://i.ibb.co.com/zH058KC7/Screenshot-2026-01-11-120746.png"
+  ],
+  "techStack": ["Next.js", "React", "Tailwind CSS", "Express", "MongoDB", "Stripe", "AI Integration"],
+  "liveLink": "https://digital-wallet-sage.vercel.app/",
+  "clientRepo": "https://github.com/Fahad-smto/digital-wallet",
+  "serverRepo": "https://github.com/Fahad-smto/digital-wallet-server",
+  "challengesFaced": [
+    "Secure Authentication-Ensuring safe user login, token management, and session persistence.",
+    "Real-Time Transactions-Handling instant fund transfers, balance updates, and notifications.",
+    "Multi-Card Management-Adding, deleting, and managing multiple bank cards without conflicts.",
+    "Expense Tracking & Visualization-Categorizing expenses and providing meaningful AI-driven insights.",
+    "QR & International Payments-Integrating QR code scanning and cross-border remittance securely.",
+    "AI Chat Assistant Integration-Providing finance advice while ensuring sensitive data privacy."
+  ],
+  "futureImprovements": [
+    "Biometric Authentication-Fingerprint/FaceID login for added security.",
+    "Advanced AI Recommendations-Personalized spending advice and savings suggestions.",
+    "Cryptocurrency Wallet Integration-Allow users to store and transact crypto assets.",
+    "Voice Command Feature-Faster interactions via voice recognition for payments.",
+    "Multi-Currency & Global Expansion-Support international users and multiple currencies."
+  ],
+  "errors": [
+    "Payment gateway timeout for some transactions.",
+    "Server-side race conditions during simultaneous fund transfers.",
+    "AI assistant occasionally returns incomplete financial suggestions."
+  ]
+},
+ {
+  "id": "3",
+  "title": "Primefit-Sports Club Management System",
+  "description": "PrimeFit Sports Club is a full-stack, single-club management platform built for handling user registrations, court/session bookings, membership management, payments, and administrative operations. The system supports three roles (User, Member, Admin) with separate dashboards, enabling secure authentication, role-based access, and CRUD operations for courts, bookings, and announcements. It integrates Stripe payments, coupon management, dynamic booking approvals, and fully responsive dashboards to provide a seamless club experience across devices.",
+  "images": [
+    "https://i.ibb.co.com/Q3Qz4Pm6/Screenshot-2025-08-19-102238.png",
+    "https://i.ibb.co.com/8DCDXyn3/Screenshot-2025-08-19-102452.png",
+    "https://i.ibb.co.com/mV2sbnQF/Screenshot-2025-08-19-102401.png"
+  ],
+  "techStack": ["React", "Tailwind", "Stripe", "Firebase", "Express", "MongoDB"],
+  "liveLink": "https://primefit-sports-club-99b528.netlify.app/",
+  "clientRepo": "https://github.com/jannatulnila/sports-club-client",
+  "serverRepo": "https://github.com/jannatulnila/sports-club-server",
+  "challengesFaced": [
+    "Private Route Reload Issue-Ensuring private dashboards persist authentication state after page refresh without redirecting to login.",
+    "Booking Workflow Complexity-Handling multiple slot bookings, pending status, admin approval, and dynamic pricing.",
+    "Responsive Dashboard Design-Maintaining usability across mobile, tablet, and desktop for multiple roles.",
+    "Coupon Application in Payment-Validating discount codes and applying correct price adjustments in real time.",
+    "Pagination & Table/Card Layout Toggle-Dynamically switching between card and table formats while paginating court and booking data.",
+    "Stripe Payment Integration-Handling payment completion, storing transaction data, and updating booking status atomically."
+  ],
+  "futureImprovements": [
+    "Push Notifications-Notify members about approved bookings, discounts, or club events.",
+    "Advanced Analytics Dashboard-Show trends in bookings, payments, and court usage over time.",
+    "Member Feedback System-Allow members to leave reviews for courts or club facilities.",
+    "Multi-Club Support-Extend the system to manage multiple clubs within a single platform.",
+    "Event Scheduling & Management-Enable creation, registration, and payment for special club events."
+  ],
+  "errors": [
+    "Stripe payment redirect not returning user to success page.",
+    "Protected routes not working after Firebase logout.",
+    "Parcel coverage API not updating in real time."
+  ],
+},
   {
-    "id": "2",
+    "id": "3",
     "title": "GardenHub - Gardening Community",
     "description": "Garden Hub is a full-stack gardening community platform where enthusiasts can connect, share gardening tips, and explore curated advice from other members. Users can post tips with images, categories, and difficulty levels, explore featured gardeners, like trending tips, and filter advice for easier browsing. The platform also includes dark/light mode, animations, and an intuitive, fully responsive UI for an engaging experience on any device.",
     "images": [
@@ -81,7 +148,7 @@ export const projects = [
   }
   ,
   {
-  "id": "3",
+  "id": "4",
   "title": "JobPortal - Your Job Discovery Hub",
   "description": "JobTrack is an innovative and fully responsive job discovery platform designed to connect job seekers with opportunities across multiple companies. It centralizes job listings, enabling users to explore company details, review job descriptions, check qualification requirements, and apply directly through company websites. The platform features Firebase authentication for secure login, a profile management system, and engaging animations, ensuring an intuitive and professional user experience across all devices.",
   "images": [
@@ -113,38 +180,5 @@ export const projects = [
   ]
 }
 ,
- {
-  "id": "4",
-  "title": "Primefit-Sports Club Management System",
-  "description": "PrimeFit Sports Club is a full-stack, single-club management platform built for handling user registrations, court/session bookings, membership management, payments, and administrative operations. The system supports three roles (User, Member, Admin) with separate dashboards, enabling secure authentication, role-based access, and CRUD operations for courts, bookings, and announcements. It integrates Stripe payments, coupon management, dynamic booking approvals, and fully responsive dashboards to provide a seamless club experience across devices.",
-  "images": [
-    "https://i.ibb.co/HpRLy78C/Screenshot-2025-07-19-222008.png",
-    "https://i.ibb.co/BKQnrsBr/Screenshot-2025-07-19-222322.png",
-    "https://i.ibb.co/tMpz7Rpd/Screenshot-2025-07-19-222048.png"
-  ],
-  "techStack": ["React", "Tailwind", "Stripe", "Firebase", "Express", "MongoDB"],
-  "liveLink": "https://primefit-sports-club-99b528.netlify.app/",
-  "clientRepo": "https://github.com/jannatulnila/sports-club-client",
-  "serverRepo": "https://github.com/jannatulnila/sports-club-server",
-  "challengesFaced": [
-    "Private Route Reload Issue-Ensuring private dashboards persist authentication state after page refresh without redirecting to login.",
-    "Booking Workflow Complexity-Handling multiple slot bookings, pending status, admin approval, and dynamic pricing.",
-    "Responsive Dashboard Design-Maintaining usability across mobile, tablet, and desktop for multiple roles.",
-    "Coupon Application in Payment-Validating discount codes and applying correct price adjustments in real time.",
-    "Pagination & Table/Card Layout Toggle-Dynamically switching between card and table formats while paginating court and booking data.",
-    "Stripe Payment Integration-Handling payment completion, storing transaction data, and updating booking status atomically."
-  ],
-  "futureImprovements": [
-    "Push Notifications-Notify members about approved bookings, discounts, or club events.",
-    "Advanced Analytics Dashboard-Show trends in bookings, payments, and court usage over time.",
-    "Member Feedback System-Allow members to leave reviews for courts or club facilities.",
-    "Multi-Club Support-Extend the system to manage multiple clubs within a single platform.",
-    "Event Scheduling & Management-Enable creation, registration, and payment for special club events."
-  ],
-  "errors": [
-    "Stripe payment redirect not returning user to success page.",
-    "Protected routes not working after Firebase logout.",
-    "Parcel coverage API not updating in real time."
-  ],
-}
+ 
 ];

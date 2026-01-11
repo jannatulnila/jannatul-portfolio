@@ -59,12 +59,12 @@ const Contact = () => {
       <div className="container max-w-7xl px-4 md:px-10 mx-auto">
         {/* Section Header */}
         <div className="text-center mb-10">
-          <div className="inline-flex items-center gap-2 bg-teal-100 dark:bg-teal-900/50 text-teal-700 dark:text-teal-300 px-4 py-2 rounded-full text-sm font-medium mb-6">
-            <div className="w-2 h-2 bg-teal-500 rounded-full animate-pulse"></div>
+          <div className="inline-flex items-center gap-2 bg-blue-100 dark:bg-blue-900/50 text-blue-700 dark:text-blue-300 px-4 py-2 rounded-full text-sm font-medium mb-6">
+            <div className="w-2 h-2 bg-blue-500 rounded-full animate-pulse"></div>
             Get In Touch
           </div>
           <h1 className="text-xl md:text-3xl font-bold text-gray-900 dark:text-white mb-4">
-            Contact <span className="bg-gradient-to-r from-teal-600 to-emerald-600 bg-clip-text text-transparent">Me</span>
+            Contact <span className="bg-gradient-to-r from-blue-600 to-blue-600 bg-clip-text text-transparent">Me</span>
           </h1>
           <p className="text-gray-600 dark:text-gray-400 text-md max-w-2xl mx-auto">
             Have a project in mind? Let&apos;s work together to bring your ideas to life
@@ -77,8 +77,8 @@ const Contact = () => {
             {/* Info Card */}
             <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-lg p-8 border border-gray-100 dark:border-gray-700 relative overflow-hidden flex-1 flex flex-col">
               {/* Decorative gradient */}
-              <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-teal-500 to-emerald-500"></div>
-              <div className="absolute top-0 right-0 w-24 h-24 bg-gradient-to-br from-teal-400/10 to-emerald-400/10 rounded-full -translate-y-12 translate-x-12"></div>
+              <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-blue-500 to-blue-500"></div>
+              <div className="absolute top-0 right-0 w-24 h-24 bg-gradient-to-br from-blue-400/10 to-blue-400/10 rounded-full -translate-y-12 translate-x-12"></div>
               
               <div className="flex flex-col flex-1">
                 <div className="flex-1">
@@ -97,14 +97,14 @@ const Contact = () => {
                         title: 'Email',
                         value: 'jannatulnila74@gmail.com',
                         href: 'mailto:jannatulnila74@gmail.com',
-                        color: 'bg-teal-100 dark:bg-teal-900/50 text-teal-600 dark:text-teal-400'
+                        color: 'bg-blue-100 dark:bg-blue-900/50 text-blue-600 dark:text-blue-400'
                       },
                       {
                         icon: <Phone className="w-6 h-6" />, 
                         title: 'Phone',
                         value: '+880 1310-427683',
                         href: 'tel:+8801310427683',
-                        color: 'bg-emerald-100 dark:bg-emerald-900/50 text-emerald-600 dark:text-emerald-400'
+                        color: 'bg-blue-100 dark:bg-blue-900/50 text-blue-600 dark:text-blue-400'
                       },
                       {
                         icon: <MapPin className="w-6 h-6" />, 
@@ -126,7 +126,7 @@ const Contact = () => {
                           {item.href ? (
                             <Link
                               href={item.href}
-                              className="text-gray-600 dark:text-gray-300 hover:text-teal-600 dark:hover:text-teal-400 transition-colors font-medium"
+                              className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors font-medium"
                             >
                               {item.value}
                             </Link>
@@ -142,7 +142,7 @@ const Contact = () => {
                 {/* Additional Info */}
                 <div className="pt-6 border-t border-gray-200 dark:border-gray-700 mt-8">
                   <div className="flex items-center gap-3 text-sm text-gray-500 dark:text-gray-400">
-                    <div className="w-2 h-2 bg-teal-500 rounded-full animate-pulse"></div>
+                    <div className="w-2 h-2 bg-blue-500 rounded-full animate-pulse"></div>
                     <span>Usually responds within 24 hours</span>
                   </div>
                 </div>
@@ -154,8 +154,8 @@ const Contact = () => {
           <div className="flex flex-col">
             <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-lg p-8 border border-gray-100 dark:border-gray-700 relative overflow-hidden flex-1 flex flex-col">
               {/* Decorative gradient */}
-              <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-emerald-500 to-teal-500"></div>
-              <div className="absolute top-0 right-0 w-24 h-24 bg-gradient-to-br from-emerald-400/10 to-teal-400/10 rounded-full -translate-y-12 translate-x-12"></div>
+              <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-blue-500 to-blue-500"></div>
+              <div className="absolute top-0 right-0 w-24 h-24 bg-gradient-to-br from-blue-400/10 to-blue-400/10 rounded-full -translate-y-12 translate-x-12"></div>
               
               <div className="mb-6">
                 <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">
@@ -185,7 +185,7 @@ const Contact = () => {
                         value={formData.name}
                         onChange={handleChange}
                         placeholder="Enter your full name"
-                        className="w-full pl-12 pr-4 py-4 rounded-xl bg-gray-50 dark:bg-gray-700 border-2 border-gray-200 dark:border-gray-600 focus:border-teal-500 dark:focus:border-teal-400 focus:bg-white dark:focus:bg-gray-600 text-gray-900 dark:text-white placeholder-gray-500 transition-all duration-300 outline-none"
+                        className="w-full pl-12 pr-4 py-4 rounded-xl bg-gray-50 dark:bg-gray-700 border-2 border-gray-200 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-400 focus:bg-white dark:focus:bg-gray-600 text-gray-900 dark:text-white placeholder-gray-500 transition-all duration-300 outline-none"
                       />
                     </div>
                   </div>
@@ -207,7 +207,7 @@ const Contact = () => {
                         value={formData.email}
                         onChange={handleChange}
                         placeholder="Enter your email address"
-                        className="w-full pl-12 pr-4 py-4 rounded-xl bg-gray-50 dark:bg-gray-700 border-2 border-gray-200 dark:border-gray-600 focus:border-teal-500 dark:focus:border-teal-400 focus:bg-white dark:focus:bg-gray-600 text-gray-900 dark:text-white placeholder-gray-500 transition-all duration-300 outline-none"
+                        className="w-full pl-12 pr-4 py-4 rounded-xl bg-gray-50 dark:bg-gray-700 border-2 border-gray-200 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-400 focus:bg-white dark:focus:bg-gray-600 text-gray-900 dark:text-white placeholder-gray-500 transition-all duration-300 outline-none"
                       />
                     </div>
                   </div>
@@ -229,7 +229,7 @@ const Contact = () => {
                         value={formData.message}
                         onChange={handleChange}
                         placeholder="Tell me about your project or just say hello..."
-                        className="w-full h-full min-h-[120px] flex-1 pl-12 pr-4 py-4 rounded-xl bg-gray-50 dark:bg-gray-700 border-2 border-gray-200 dark:border-gray-600 focus:border-teal-500 dark:focus:border-teal-400 focus:bg-white dark:focus:bg-gray-600 text-gray-900 dark:text-white placeholder-gray-500 transition-all duration-300 outline-none resize-none"
+                        className="w-full h-full min-h-[120px] flex-1 pl-12 pr-4 py-4 rounded-xl bg-gray-50 dark:bg-gray-700 border-2 border-gray-200 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-400 focus:bg-white dark:focus:bg-gray-600 text-gray-900 dark:text-white placeholder-gray-500 transition-all duration-300 outline-none resize-none"
                       />
                     </div>
                   </div>
@@ -240,7 +240,7 @@ const Contact = () => {
                   <button
                     type="submit"
                     disabled={status === 'loading'}
-                    className="group w-full py-3 px-5 rounded-xl bg-gradient-to-r from-teal-600 to-emerald-600 hover:from-teal-700 hover:to-emerald-700 text-white font-semibold text-lg transition-all duration-300 hover:shadow-lg hover:shadow-teal-500/25 hover:scale-105 transform disabled:opacity-70 disabled:cursor-not-allowed disabled:hover:scale-100 flex items-center justify-center gap-3"
+                    className="group w-full py-3 px-5 rounded-xl bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-600 hover:to-blue-700 text-white font-semibold text-lg transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/25 hover:scale-105 transform disabled:opacity-70 disabled:cursor-not-allowed disabled:hover:scale-100 flex items-center justify-center gap-3"
                   >
                     {status === 'loading' ? (
                       <>
@@ -257,8 +257,8 @@ const Contact = () => {
 
                   {/* Status Messages */}
                   {status === 'success' && (
-                    <div className="p-4 rounded-xl bg-emerald-50 dark:bg-emerald-900/20 border border-emerald-200 dark:border-emerald-800">
-                      <p className="text-emerald-700 dark:text-emerald-400 text-center font-medium">
+                    <div className="p-4 rounded-xl bg-blue-50 dark:bg-blue-900/20 border border-blue-200 dark:border-blue-800">
+                      <p className="text-blue-700 dark:text-blue-400 text-center font-medium">
                         ✅ Message sent successfully! I`ll get back to you soon.
                       </p>
                     </div>

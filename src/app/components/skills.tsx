@@ -37,21 +37,21 @@ const Skills = () => {
 
   const skills: Skill[] = [
     // Frontend
-    { icon: <Globe className="w-8 h-8 text-teal-500 dark:text-teal-400" />, label: 'HTML5', category: 'Frontend' },
+    { icon: <Globe className="w-8 h-8 text-blue-500 dark:text-blue-400" />, label: 'HTML5', category: 'Frontend' },
     { icon: <Palette className="w-8 h-8 text-emerald-500 dark:text-emerald-400" />, label: 'CSS3', category: 'Frontend' },
-    { icon: <FileCode className="w-8 h-8 text-teal-600 dark:text-teal-400" />, label: 'JavaScript', category: 'Frontend' },
+    { icon: <FileCode className="w-8 h-8 text-blue-600 dark:text-blue-400" />, label: 'JavaScript', category: 'Frontend' },
     { icon: <Code className="w-8 h-8 text-cyan-600 dark:text-cyan-400" />, label: 'TypeScript', category: 'Frontend' },
     { icon: <Layers className="w-8 h-8 text-emerald-600 dark:text-emerald-400" />, label: 'Tailwind CSS', category: 'Frontend' },
-    { icon: <Code className="w-8 h-8 text-teal-500 dark:text-teal-300" />, label: 'React', category: 'Frontend' },
+    { icon: <Code className="w-8 h-8 text-blue-500 dark:text-blue-300" />, label: 'React', category: 'Frontend' },
     { icon: <FileCode className="w-8 h-8 text-gray-700 dark:text-gray-300" />, label: 'Next.js', category: 'Frontend' },
     
     // Backend & Database
-    { icon: <Database className="w-8 h-8 text-teal-600 dark:text-teal-400" />, label: 'MongoDB', category: 'Backend' },
+    { icon: <Database className="w-8 h-8 text-blue-600 dark:text-blue-400" />, label: 'MongoDB', category: 'Backend' },
     { icon: <Database className="w-8 h-8 text-emerald-600 dark:text-emerald-400" />, label: 'Firebase', category: 'Backend' },
     { icon: <Globe className="w-8 h-8 text-cyan-600 dark:text-cyan-400" />, label: 'WordPress', category: 'Backend' },
     
     // Tools
-    { icon: <GitBranch className="w-8 h-8 text-teal-500 dark:text-teal-400" />, label: 'Git', category: 'Tools' },
+    { icon: <GitBranch className="w-8 h-8 text-blue-500 dark:text-blue-400" />, label: 'Git', category: 'Tools' },
     { icon: <Github className="w-8 h-8 text-gray-700 dark:text-gray-300" />, label: 'GitHub', category: 'Tools' },
     { icon: <Package className="w-8 h-8 text-emerald-500 dark:text-emerald-400" />, label: 'NPM', category: 'Tools' },
     { icon: <Settings className="w-8 h-8 text-cyan-500 dark:text-cyan-400" />, label: 'Figma', category: 'Tools' },
@@ -59,26 +59,26 @@ const Skills = () => {
 
   const categories: { [key: string]: Category } = {
     All: { 
-      color: 'bg-teal-50 hover:bg-teal-100 text-teal-700 dark:bg-teal-900/30 dark:hover:bg-teal-900/50 dark:text-teal-300 border-teal-200 dark:border-teal-700', 
-      activeColor: 'bg-gradient-to-r from-teal-600 to-emerald-600 text-white border-transparent shadow-lg shadow-teal-500/25',
+      color: 'bg-blue-50 hover:bg-blue-100 text-blue-700 dark:bg-blue-900/30 dark:hover:bg-blue-900/50 dark:text-blue-300 border-blue-200 dark:border-blue-700', 
+      activeColor: 'bg-gradient-to-r from-blue-600 to-emerald-600 text-white border-transparent shadow-lg shadow-blue-500/25',
       title: 'All Skills',
       icon: <Code className="w-5 h-5" />
     },
     Frontend: { 
-      color: 'bg-teal-50 hover:bg-teal-100 text-teal-700 dark:bg-teal-900/30 dark:hover:bg-teal-900/50 dark:text-teal-300 border-teal-200 dark:border-teal-700', 
-      activeColor: 'bg-gradient-to-r from-teal-500 to-cyan-500 text-white border-transparent shadow-lg shadow-teal-500/25',
+      color: 'bg-blue-50 hover:bg-blue-100 text-blue-700 dark:bg-blue-900/30 dark:hover:bg-blue-900/50 dark:text-blue-300 border-blue-200 dark:border-blue-700', 
+      activeColor: 'bg-gradient-to-r from-blue-500 to-cyan-500 text-white border-transparent shadow-lg shadow-blue-500/25',
       title: 'Frontend',
       icon: <Globe className="w-5 h-5" />
     },
     Backend: { 
       color: 'bg-emerald-50 hover:bg-emerald-100 text-emerald-700 dark:bg-emerald-900/30 dark:hover:bg-emerald-900/50 dark:text-emerald-300 border-emerald-200 dark:border-emerald-700', 
-      activeColor: 'bg-gradient-to-r from-emerald-500 to-teal-500 text-white border-transparent shadow-lg shadow-emerald-500/25',
+      activeColor: 'bg-gradient-to-r from-emerald-500 to-blue-500 text-white border-transparent shadow-lg shadow-emerald-500/25',
       title: 'Backend',
       icon: <Database className="w-5 h-5" />
     },
     Tools: { 
       color: 'bg-cyan-50 hover:bg-cyan-100 text-cyan-700 dark:bg-cyan-900/30 dark:hover:bg-cyan-900/50 dark:text-cyan-300 border-cyan-200 dark:border-cyan-700', 
-      activeColor: 'bg-gradient-to-r from-cyan-500 to-teal-500 text-white border-transparent shadow-lg shadow-cyan-500/25',
+      activeColor: 'bg-gradient-to-r from-cyan-500 to-blue-500 text-white border-transparent shadow-lg shadow-cyan-500/25',
       title: 'Tools',
       icon: <Settings className="w-5 h-5" />
     }
@@ -107,13 +107,13 @@ const Skills = () => {
           {/* Header */}
           <div className="text-center mb-16">
             {/* Badge */}
-            <div className="inline-flex items-center gap-2 bg-teal-100 dark:bg-teal-900/50 text-teal-700 dark:text-teal-300 px-4 py-2 rounded-full text-sm font-medium mb-6">
-              <div className="w-2 h-2 bg-teal-500 rounded-full animate-pulse"></div>
+            <div className="inline-flex items-center gap-2 bg-blue-100 dark:bg-blue-900/50 text-blue-700 dark:text-blue-300 px-4 py-2 rounded-full text-sm font-medium mb-6">
+              <div className="w-2 h-2 bg-blue-500 rounded-full animate-pulse"></div>
               Technical Skills
             </div>
             
             <h2 className="text-xl md:text-3xl font-bold mb-6 text-gray-900 dark:text-gray-100">
-              Skills & <span className="bg-gradient-to-r from-teal-600 to-emerald-600 bg-clip-text text-transparent">Technologies</span>
+              Skills & <span className="bg-gradient-to-r from-blue-600 to-emerald-600 bg-clip-text text-transparent">Technologies</span>
             </h2>
             <p className="text-gray-600 dark:text-gray-400 text-md mb-12 max-w-2xl mx-auto leading-relaxed">
               The tools and technologies I use to bring ideas to life and create amazing digital experiences
@@ -149,13 +149,13 @@ const Skills = () => {
               {getDisplayedSkills().map((skill, index) => (
                 <div
                   key={`${skill.label}-${index}`}
-                  className="group flex flex-col items-center justify-center p-6 bg-white dark:bg-gray-800 rounded-2xl shadow-sm hover:shadow-lg hover:shadow-teal-500/10 hover:scale-105 transition-all duration-300 transform border border-gray-100 dark:border-gray-700 hover:border-teal-200 dark:hover:border-teal-600 relative overflow-hidden"
+                  className="group flex flex-col items-center justify-center p-6 bg-white dark:bg-gray-800 rounded-2xl shadow-sm hover:shadow-lg hover:shadow-blue-500/10 hover:scale-105 transition-all duration-300 transform border border-gray-100 dark:border-gray-700 hover:border-blue-200 dark:hover:border-blue-600 relative overflow-hidden"
                   style={{
                     animation: `fadeInUp 0.5s ease-out ${index * 0.1}s both`
                   }}
                 >
                   {/* Background gradient on hover */}
-                  <div className="absolute inset-0 bg-gradient-to-br from-teal-50 to-emerald-50 dark:from-teal-900/20 dark:to-emerald-900/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                  <div className="absolute inset-0 bg-gradient-to-br from-blue-50 to-emerald-50 dark:from-blue-900/20 dark:to-emerald-900/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                   
                   {/* Icon */}
                   <div className="relative mb-4 transform group-hover:rotate-12 group-hover:scale-110 transition-all duration-300">
@@ -163,12 +163,12 @@ const Skills = () => {
                   </div>
                   
                   {/* Label */}
-                  <p className="relative text-sm font-semibold text-gray-800 dark:text-gray-200 group-hover:text-teal-600 dark:group-hover:text-teal-400 transition-colors duration-300">
+                  <p className="relative text-sm font-semibold text-gray-800 dark:text-gray-200 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors duration-300">
                     {skill.label}
                   </p>
                   
                   {/* Decorative dot */}
-                  <div className="absolute top-3 right-3 w-2 h-2 bg-teal-400 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                  <div className="absolute top-3 right-3 w-2 h-2 bg-blue-400 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 </div>
               ))}
             </div>
@@ -176,8 +176,8 @@ const Skills = () => {
             {/* Empty State */}
             {getDisplayedSkills().length === 0 && (
               <div className="text-center py-16">
-                <div className="inline-flex items-center justify-center w-16 h-16 bg-teal-100 dark:bg-teal-900/50 rounded-full mb-4">
-                  <Settings className="w-8 h-8 text-teal-600 dark:text-teal-400" />
+                <div className="inline-flex items-center justify-center w-16 h-16 bg-blue-100 dark:bg-blue-900/50 rounded-full mb-4">
+                  <Settings className="w-8 h-8 text-blue-600 dark:text-blue-400" />
                 </div>
                 <div className="text-gray-500 dark:text-gray-400 text-lg font-medium mb-2">
                   No skills found
@@ -209,3 +209,4 @@ const Skills = () => {
 };
 
 export default Skills;
+

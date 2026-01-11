@@ -6,7 +6,7 @@ import { SiNextui } from 'react-icons/si';
 const About = () => {
     return (
         <section className='container max-w-7xl px-4 md:px-20 mx-auto'>
-            <h1 className='text-4xl font-bold mb-8 text-center bg-gradient-to-r from-teal-600 to-emerald-600 bg-clip-text text-transparent'>
+            <h1 className='text-4xl font-bold mb-8 text-center bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent'>
                 About Me
             </h1>
 
@@ -22,11 +22,11 @@ const About = () => {
                     {/* Frontend Card */}
                     <div className='bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 hover:shadow-xl transition-all duration-300 border border-gray-100 dark:border-gray-700 group hover:scale-105'>
                         <div className='flex justify-center mb-4'>
-                            <div className='p-3 rounded-full bg-teal-100 dark:bg-teal-900/50 group-hover:bg-teal-200 dark:group-hover:bg-teal-800/70 transition-colors'>
-                                <FaMousePointer className='text-3xl text-teal-600 dark:text-teal-400' />
+                            <div className='p-3 rounded-full bg-blue-100 dark:bg-blue-900/50 group-hover:bg-blue-200 dark:group-hover:bg-blue-800/70 transition-colors'>
+                                <FaMousePointer className='text-3xl text-blue-600 dark:text-blue-400' />
                             </div>
                         </div>
-                        <h2 className='text-xl font-bold text-gray-900 dark:text-white hover:text-teal-600 dark:hover:text-teal-400 transition-colors mb-2'>
+                        <h2 className='text-xl font-bold text-gray-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-400 transition-colors mb-2'>
                             Frontend Developer
                         </h2>
                         <p className='text-gray-600 dark:text-gray-300'>
@@ -37,11 +37,11 @@ const About = () => {
                     {/* Backend Card */}
                     <div className='bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 hover:shadow-xl transition-all duration-300 border border-gray-100 dark:border-gray-700 group hover:scale-105'>
                         <div className='flex justify-center mb-4'>
-                            <div className='p-3 rounded-full bg-emerald-100 dark:bg-emerald-900/50 group-hover:bg-emerald-200 dark:group-hover:bg-emerald-800/70 transition-colors'>
-                                <FaServer className='text-3xl text-emerald-600 dark:text-emerald-400' />
+                            <div className='p-3 rounded-full bg-blue-100 dark:bg-blue-900/50 group-hover:bg-blue-200 dark:group-hover:bg-blue-800/70 transition-colors'>
+                                <FaServer className='text-3xl text-blue-600 dark:text-blue-400' />
                             </div>
                         </div>
-                        <h2 className='text-xl font-bold text-gray-900 dark:text-white hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors mb-2'>
+                        <h2 className='text-xl font-bold text-gray-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-400 transition-colors mb-2'>
                             Backend Developer
                         </h2>
                         <p className='text-gray-600 dark:text-gray-300'>
